@@ -1,3 +1,10 @@
 document.getElementsByTagName('div')[0].onclick=function(){
-    this.style.backgroundColor='green'
+
+    if(this.style.backgroundColor!='green'){
+
+        this.style.backgroundColor='green'
+    }else{
+        
+    this.style.backgroundColor='#00f'
+    }
 }
