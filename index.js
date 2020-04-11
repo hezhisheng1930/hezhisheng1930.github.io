@@ -1,1 +1,3 @@
-console.log('adssads')
+document.getElementsByTagName('div')[0].onclick=function(){
+    alert('弹出框')
+}
