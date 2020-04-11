@@ -5,6 +5,7 @@ document.getElementsByTagName('div')[0].onclick=function(){
         this.style.backgroundColor='green'
     }else{
         
-    this.style.backgroundColor='#00f'
+    this.style.backgroundColor='#f00'
     }
 }
+//https://hezhisheng1930.github.io/
